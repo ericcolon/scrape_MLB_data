@@ -1,0 +1,22 @@
+
+----get_data.py----
+
+In settings.py we have players_urls0 which is links to 279 players' game data for 2016.
+
+We use this to scrape their data and calculate fantasy points with append_hitter_score_to_df.
+
+We have a file called _ALL_SCHEDULES_2016.csv which we just downloaded.
+
+Use this to get the opposing pitcher for players logs.
+
+Now have hitter_data_2016_w_pitcher.csv which contains all hitter data and opposing pitcher. 
+
+
+---get_schedule_results.py---
+After going to https://www.baseball-reference.com/teams/ARI/2017-schedule-scores.shtml for each team and downloading the schedule, 
+
+use this script to put every schedule in one dataframe and then 
+
+save it to schedules/_ALL_SCHEDULES_2017.csv
+
+then we can go back to step 3 above and go from there
